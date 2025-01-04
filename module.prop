@@ -1,0 +1,8 @@
+id=DynamicSystemTweaks-arm64
+name=DynamicSystemTweaks-arm64
+version=v1.0
+versionCode=1
+author=Cyberdev
+description=Improves system performance without battery loss or overheating for arm64-v8a with 8 cpu core devices only (Android 10+)
+support=
+updateJson=
