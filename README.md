@@ -28,7 +28,7 @@ This improves overall System performance without overheating and losing battery 
 
 
 ## Warnings:
-This module will run your dalvik VM via your device in x64-bit mode this will allow applications to run more efficiently but may also use a bit more memory depending on your device usage. When you install this module please allow 30 mins to recompile before makind any decisions if this module is worth your time as any changes to dalvik.can take up to 30mins to complete before you see any results.
+This module will run your dalvik VM via your device in x64-bit mode this will allow applications to run more efficiently but may also use a bit more memory depending on your device usage. When you install this module please allow 30 mins for dalvik to recompile before making any decisions if this module is worth your time as any changes to dalvik can take up to 30mins to complete before you see any results.
 
 In case if an emergency such as a bootloop upon installing this module, please be sure to install a anti bootloop module that can assist in recovering your system by disabling all magisk modules, if this happens this is not the module itself but your system either doesn't meet our requirements or the module caused instabilities that caused this issue!
 
