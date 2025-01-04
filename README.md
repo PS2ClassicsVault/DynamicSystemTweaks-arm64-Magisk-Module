@@ -20,7 +20,7 @@ This improves overall System performance without overheating and losing battery 
 - Rooted device
 
 ## Changelog
-[View changelog here](url)
+[View changelog here](https://github.com/PS2ClassicsVault/DynamicSystemTweaks-arm64-Magisk-Module/blob/main/changelog.md)
 
 ## Requirements:
 - CPU with 8 cores (needed for dex2oat to perform 8 thread tasks).
