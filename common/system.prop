@@ -120,10 +120,6 @@ dalvik.vm.stack-trace-file=/data/anr/traces.txt
 dalvik.vm.jmiopts=forcecopy
 dalvik.vm.execution-mode=int:jit
 persist.sys.dalvik.vm.lib=libart.so
-dalvik.vm.dex2oat-cpu-set=1,2,3,4,5,6,7,8
-dalvik.vm.dex2oat-threads=8
-dalvik.vm.image-dex2oat-cpu-set=1,2,3,4,5,6,7,8
-dalvik.vm.image-dex2oat-threads=8
 
 # Sensor configuration
 sensor.accelerometer.batch=1
