@@ -17,15 +17,14 @@ This improves overall System performance without overheating and losing battery 
 ## Requirements:
 - Magisk 20.4 or higher
 - Android 10 or higher
+- CPU with 8 cores (needed for dex2oat to perform 8 thread tasks).
+- Arch: arm64-v8a
 - Rooted device
 
 ## Changelog
 [View changelog here](https://github.com/PS2ClassicsVault/DynamicSystemTweaks-arm64-Magisk-Module/blob/main/changelog.md)
 
-## Requirements:
-- CPU with 8 cores (needed for dex2oat to perform 8 thread tasks).
-- arm64-v8a device only
-
+## Note:
 This version works similar to our original DynamicSystemTweaks Module, but is only intended for 64-bit only devices, running this on a non-64-Bit device will cause your system to bootloop!
 
 ## Warnings:
