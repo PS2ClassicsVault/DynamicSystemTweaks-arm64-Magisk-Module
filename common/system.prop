@@ -9,7 +9,6 @@
 #Kernel configuration
 ro.config.nocheckin=1
 dalvik.vm.swappiness=60
-ro.config.nocheckin=1
 
 # Filesystem configuration
 ro.ext4fs=1
@@ -20,7 +19,7 @@ persist.sys.fstrim.enable=true
 ro.sys.sdcardfs=true
 persist.sys.use_fstrim=1
 ro.config.ufs_performance=1
-persist.sys.io.scheduler=cfq
+persist.sys.io.scheduler=auto
 persist.sys.storage.ufs.read_ahead_kb=4096
 ro.config.ufs_write_booster=1
 ro.config.ufs_latency=0
@@ -112,6 +111,7 @@ ro.config.cpu_freq_scaling=1
 ro.config.thermal_threshold=75
 
 # Dalvik configuration
+dalvik.vm.image-dex2oat-Xms=64m dalvik.vm.image-dex2oat-Xmx=64m dalvik.vm.image-dex2oat-cpu-set=1,2,3,4,5,6,7,8 dalvik.vm.image-dex2oat-threads=8 dalvik.vm.dex2oat-Xms=192m dalvik.vm.dex2oat-Xmx=512m dalvik.vm.dex2oat-cpu-set=1,2,3,4,5,6,7,8 dalvik.vm.dex2oat-threads=8
 dalvik.vm.heaptargetutilization=0.75
 dalvik.vm.heaputilization=0.25
 persist.sys.dalvik.multithread=true
@@ -124,16 +124,6 @@ dalvik.vm.dex2oat-cpu-set=1,2,3,4,5,6,7,8
 dalvik.vm.dex2oat-threads=8
 dalvik.vm.image-dex2oat-cpu-set=1,2,3,4,5,6,7,8
 dalvik.vm.image-dex2oat-threads=8
-dalvik.vm.boot-dex2oat-cpu-set=1,2,3,4,5,6,7,8
-dalvik.vm.boot-dex2oat-threads=4
-dalvik.vm.background-dex2oat-cpu-set=1,2,3,4,5,6,7,8
-dalvik.vm.background-dex2oat-threads=8
-dalvik.vm.restore-dex2oat-cpu-set=1,2,3,4,5,6,7,8
-dalvik.vm.restore-dex2oat-threads=8
-dalvik.vm.dex2oat64.enabled=true
-dalvik.vm.dex2oat-max-image-block-size=524288
-dalvik.vm.dex2oat-swap=true
-dalvik.vm.lockprof.threshold=500
 
 # Sensor configuration
 sensor.accelerometer.batch=1
@@ -198,7 +188,7 @@ debug.egl.force_msaa=1
 debug.egl.buffcount=4
 lockscreen.rot_override=true
 ro.config.dha_tunable=1
-persist.sys.use_16bpp_alpha=0
+persist.sys.use_16bpp_alpha=1
 debug.composition.type=gpu
 persist.sys.composition.type=gpu
 debug.egl.hw=1
@@ -214,7 +204,6 @@ ro.min.fps=60
 sys.hwc.gpu_perf_mode=1
 persist.sys.ui.hw=true
 debug.gr.numframebuffers=3
-ro.opengles.version=196610
 
 # Display configuration 
 windowsmgr.max_events_per_sec=500
