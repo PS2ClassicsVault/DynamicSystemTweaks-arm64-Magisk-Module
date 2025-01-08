@@ -28,10 +28,12 @@ This improves overall System performance without overheating and losing battery 
 
 This version works similar to our original DynamicSystemTweaks Module, but is only intended for 64-bit only devices, running this on a non-64-Bit device will cause your system to bootloop!
 
-
 ## Warnings:
 This module will run your dalvik VM via your device in x64-bit mode this will allow applications to run more efficiently but may also use a bit more memory depending on your device usage. When you install this module please allow 30 mins to recompile before makind any decisions if this module is worth your time as any changes to dalvik.can take up to 30mins to complete before you see any results.
 
 In case if an emergency such as a bootloop upon installing this module, please be sure to install a anti bootloop module that can assist in recovering your system by disabling all magisk modules, if this happens this is not the module itself but your system either doesn't meet our requirements or the module caused instabilities that caused this issue!
 
 Not all devices run the same this should be treated the same as well since  not all devices will react the same as you expect! 
+
+## This module is available in the IzzySoft Magisk Module Repo:
+[IzzySoft Magisk Repo](https://apt.izzysoft.de/magisk/)
