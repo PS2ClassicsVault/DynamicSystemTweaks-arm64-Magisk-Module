@@ -1,6 +1,6 @@
 {
-  "version": "v1.1",
-  "versionCode": 2,
-  "zipUrl": "https://github.com/PS2ClassicsVault/DynamicSystemTweaks-arm64-Magisk-Module/releases/download/v1.1/DynamicSystemTweaks-arm64-v1.1.zip",
+  "version": "v1.2",
+  "versionCode": 3,
+  "zipUrl": "https://github.com/PS2ClassicsVault/DynamicSystemTweaks-arm64-Magisk-Module/releases/download/v1.2/DynamicSystemTweaks-arm64-v1.2.zip",
   "changelog": "https://raw.githubusercontent.com/PS2ClassicsVault/DynamicSystemTweaks-arm64-Magisk-Module/refs/heads/main/changelog.md"
 }
