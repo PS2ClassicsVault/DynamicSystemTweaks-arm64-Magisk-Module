@@ -1,10 +1,10 @@
 # Dynamic System Tweaks Magisk Module for arm64-v8a devices
 
 ### Version:
-v1.2
+v1.3
 
 ### Last Updated:
-01/23/25
+02/04/25
 
 ## Description
 This improves overall System performance without overheating and losing battery power.
