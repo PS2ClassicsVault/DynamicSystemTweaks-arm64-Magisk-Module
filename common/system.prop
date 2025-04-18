@@ -7,27 +7,14 @@
 ##############################
 
 # Java VM configuration
-dalvik.vm.dex2oat-threads=8
-dalvik.vm.dex2oat-thread_count=8
-ro.sys.fw.dex2oat_thread_count=8
-dalvik.vm.boot-dex2oat-threads=8
-dalvik.vm.image-dex2oat-threads=8
-dalvik.vm.dex2oat-minidebuginfo=false
-dalvik.vm.check-dex-sum=false
-dalvik.vm.checkjni=false
-dalvik.vm.verify-bytecode=false
-dalvik.gc.type=generational_cc
-dalvik.vm.dex2oat-swap=true
-dalvik.vm.dex2oat-resolve-startup-strings=true
-dalvik.vm.systemservercompilerfilter=speed-profile
-dalvik.vm.systemuicompilerfilter=speed-profile
-dalvik.vm.usap_pool_enabled=true
-dalvik.vm.usejit=false
-dalvik.vm.lockprof.threshold=500
-
-# USB configuration
-persist.sys.isUsbOtgEnabled=1
-persist.sys.usb.config=mtp,adb
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heaputilization=0.25
+dalvik.vm.dexopt-flags=v=a,o=v,m=y,u=y
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+dalvik.vm.execution-mode=int:jit
+persist.sys.dalvik.vm.lib=libart.so
+dalvik.vm.dex2oat-threads=4
+dalvik.vm.dex2oat-thread_count=4
 
 # Facelock configuration
 ro.facelock.black_timeout=1250
@@ -148,9 +135,8 @@ ro.gps.agps_port=7276
 ro.networklocation.provider=1
 
 # Graphics configuration
-ro.opengles.version=196610
 debug.egl.force_msaa=1
-debug.egl.buffcount=3
+debug.egl.buffcount=4
 ro.config.dha_tunable=1
 debug.composition.type=gpu
 persist.sys.composition.type=gpu
@@ -162,7 +148,8 @@ persist.sys.ui.hw=true
 debug.gr.numframebuffers=3
 
 # Display configuration 
-windowsmgr.max_events_per_sec=500
+windowsmgr.max_events_per_sec=240
+windowsmgr.min_events_per_sec=60
 ro.min_pointer_dur=8 
 ro.max.fling_velocity=12000
 ro.min.fling_velocity=8000
@@ -293,21 +280,9 @@ net.tcp.default_init_rwnd=60
 # Launcher configuration
 log.tag.launcher_force_rotate=VERBOSE
 
-# Wireless + TCP Speed & Security Tweaks
-net.core.wmem_max=1048576
-net.core.rmem_max=1048576
-net.core.rmem_default=262144
-net.core.wmem_default=262144
-net.core.optmem_max=20480
-net.unix.max_dgram_qlen=50
-
 # Hardware configuration
-sys.keep.settings=true
 lockscreen.rot_override=true
 use.voice.path.for.pcm.voip=true
 ro.hardware.qemu=0
-ro.storage_manager.enabled=true
-ro.sys.fw.use_trim_settings=true
-ro.trim.config=true
 
 #####Cyberdev#####
