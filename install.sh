@@ -28,7 +28,7 @@ REPLACE="
 print_modname() {
   ui_print "*******************************"
   ui_print " Dynamic System Tweaks - arm64 "
-  ui_print "    By Cyberdev| Ver: v1.3     "
+  ui_print "    By Cyberdev| Ver: v1.4     "
   ui_print "        Arch: arm64-v8a        "
   ui_print "*******************************"
 }

@@ -3,6 +3,10 @@ https://www.paypal.me/CyberGamingStudios
 
 If you encounter bug or issue please submit a new issue ticket!
 
+# v1.4
+- Improved performance
+- Improved tweaks
+- Decreased dex2oat thread count from 8 to 4
 
 # v1.3
 - Removed HWUI tweaks as it contributed to slowing the OS down a bit.

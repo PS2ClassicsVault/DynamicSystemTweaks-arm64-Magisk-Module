@@ -1,10 +1,10 @@
 # Dynamic System Tweaks Magisk Module for arm64-v8a devices
 
 ### Version:
-v1.3
+v1.4
 
 ### Last Updated:
-02/04/25
+04/18/25
 
 ## Description
 This improves overall System performance without overheating and losing battery power.
@@ -17,6 +17,7 @@ This improves overall System performance without overheating and losing battery 
 ## Requirements:
 - Magisk 20.4 or higher
 - Android 10 or higher
+- Arch: arm64-v8a
 - Rooted device
 
 ## Changelog
