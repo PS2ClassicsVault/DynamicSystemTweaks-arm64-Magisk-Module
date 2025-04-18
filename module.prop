@@ -1,8 +1,8 @@
 id=DynamicSystemTweaks-arm64
 name=DynamicSystemTweaks-arm64
-version=v1.3
-versionCode=4
+version=v1.4
+versionCode=5
 author=Cyberdev
-description=Improves system performance without battery loss or overheating for arm64-v8a with 8 cpu core devices only (Android 10+)
+description=Improves system performance without battery loss or overheating for arm64-v8a with 8 cpu core devices only, does not work on devices using APatch (Android 10+)
 support=https://github.com/PS2ClassicsVault/DynamicSystemTweaks-arm64-Magisk-Module/issues
 updateJson=https://raw.githubusercontent.com/PS2ClassicsVault/DynamicSystemTweaks-arm64-Magisk-Module/refs/heads/main/update.json
