@@ -3,6 +3,16 @@ https://www.paypal.me/CyberGamingStudios
 
 If you encounter bug or issue please submit a new issue ticket!
 
+# v1.5
+- Increased dex2oat thread count processing to use 6 cores instead of 4 cores
+- Set hwui OpenGL to use vulkan
+- Set wifi scan to 200 instead of 180 for better power saving
+- Added bluetooth improvementa for controllers
+- Added tweaks to improve USB connectivity performance for controllers.
+- Added tweaks to force games to 60Hz by default
+- Improved network code for better net performance
+- Set windowsmgr per sec to 60fps min and 120fps max
+
 # v1.4
 - Improved performance
 - Improved tweaks
